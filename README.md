@@ -16,15 +16,15 @@
 - SSDT-EC.aml => Từ SSDTTime lấy ra 
 - SSDT-PLUG-DRTNIA.aml 
 - SSDT-AWAC.aml
-#DeviceProperties
-PciRoot(0x0)/Pci(0x2,0x0) 
-PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
-#Kernel 
-Lilu.kext 
-VirtualSMC.kext 
-WhateverGreen.kext 
-AppleALC.kext 
-RealtekRTL8111.kext => Chọn bản V2.2.2
-#Drivers 
-HfsPlus.efi 
-OpenRuntime.efi
+# DeviceProperties
+- PciRoot(0x0)/Pci(0x2,0x0) 
+- PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
+# Kernel 
+- Lilu.kext 
+- VirtualSMC.kext 
+- WhateverGreen.kext 
+- AppleALC.kext 
+- RealtekRTL8111.kext => Chọn bản V2.2.2
+# Drivers 
+- HfsPlus.efi 
+- OpenRuntime.efi
