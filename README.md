@@ -12,10 +12,10 @@
 
 # https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#starting-point
 
-#ACPI: 
-SSDT-EC.aml => Từ SSDTTime lấy ra 
-SSDT-PLUG-DRTNIA.aml 
-SSDT-AWAC.aml
+# ACPI: 
+- SSDT-EC.aml => Từ SSDTTime lấy ra 
+- SSDT-PLUG-DRTNIA.aml 
+- SSDT-AWAC.aml
 #DeviceProperties
 PciRoot(0x0)/Pci(0x2,0x0) 
 PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
